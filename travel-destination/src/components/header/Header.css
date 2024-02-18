@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #3d4556;
+    font-size: 5em;
+    color: rgb(251, 248, 248);
+    text-transform: uppercase;
+    font-family: "Lobster", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    padding: 0.5em;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    
+}
+span{
+    background-image: url("https://images.ireland.com/media/Images/Tipperary/aafe8401d6a1418cb65e2767f330c94b.jpg?w=1934");
+    background-size: cover;
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: 900;
+}
