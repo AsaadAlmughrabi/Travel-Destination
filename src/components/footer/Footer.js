@@ -5,7 +5,7 @@ function Footer() {
     <>
       <footer class="footer">
         <p class="footer-title">
-          Copyright @ <span> Asaad Almughrabi </span>
+          Copyright @ <span> Assad Almughrabi </span>
         </p>
         <div class="social-icons">
           <a href="">
