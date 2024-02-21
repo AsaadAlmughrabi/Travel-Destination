@@ -11,7 +11,7 @@ function Footer() {
           <a href="">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/asaad_almughrabi/">
             <i class="fa-brands fa-instagram"></i>
           </a>
           <a href="">
