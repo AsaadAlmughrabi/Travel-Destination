@@ -5,6 +5,13 @@
     display: flex;
     justify-content: space-between;
     
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+   
+    
+    
   }
   .footer-title{
     font-size: 1.3em;
@@ -18,11 +25,13 @@
   }
   .social-icons a{
     color: #f7f4f4;
+    margin-right: 50px;
   }
   
   .footer .social-icons a{
     font-size: 1.3em;
     padding-right: 12px;
+   
     
   
   }

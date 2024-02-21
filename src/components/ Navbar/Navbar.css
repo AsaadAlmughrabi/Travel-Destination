@@ -1,0 +1,47 @@
+
+.header{
+    background-color: #3d4556; 
+       width: 100%;
+  position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    margin-bottom: 50px;
+}
+.logo{
+ margin-left: 50px;
+  
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navbar{
+  
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 0px;
+margin-right: 50px;
+}
+
+ .navbar-brand span {
+    background-image: url("https://images.ireland.com/media/Images/Tipperary/aafe8401d6a1418cb65e2767f330c94b.jpg?w=1934");
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+  }
+ 
+  
+  .navbar-text a {
+    color: rgb(29, 27, 27);
+    margin: 0 10px;
+    background-image: url("https://images.ireland.com/media/Images/Tipperary/aafe8401d6a1418cb65e2767f330c94b.jpg?w=1934");
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    
+  }
