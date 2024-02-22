@@ -1,17 +1,12 @@
 .footer{
     background-color: #3d4556;
     color: #f7f4f4;
-    padding: 2em;
+    height: 90px;
     display: flex;
     justify-content: space-between;
-    
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    align-items: center;
 
-   
-    
-    
+ 
   }
   .footer-title{
     font-size: 1.3em;

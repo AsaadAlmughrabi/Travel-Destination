@@ -1,11 +1,4 @@
-.wrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #282c34;
-  
-  }
+
   
 .content {
     display: flex;
