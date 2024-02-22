@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import Header from "../header/Header.js";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import './TourDetails.css'
+import "./TourDetails.css";
 
 const toursData = require("../../data/db.json");
 
@@ -38,16 +38,10 @@ function TourDetails() {
               </Card.Title>
             </Card.Body>
           </Card>
-          <Card.Text className="card__text">{description}</Card.Text>
-          {showMore ? (
-            <Button variant="primary" onClick={handleSeeMore}>
-              See More
-            </Button>
-          ) : (
-            <Button variant="primary" onClick={handleSeeMore}>
-              See Less
-            </Button>
-          )}
+          <Card.Text className="card-text">{description}</Card.Text>
+          <Button className="see-more-btn" onClick={handleSeeMore}>
+            {showMore ? "See More" : "See Less"}
+          </Button>
         </div>
       </div>
       <Footer />

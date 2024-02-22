@@ -8,8 +8,11 @@ function Home() {
   return (
     <>
       <Header />
-      
-      <Tours />
+
+      <div className="main">
+        <Tours />
+      </div>
+
       <Footer />
     </>
   );
